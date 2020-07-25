@@ -1,0 +1,179 @@
+@import url(https://fonts.googleapis.com/css?family=Pinyon+Script|Montserrat|Arvo);
+*{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'Pinyon Script', cursive;
+	-webkit-transition: all 0.2s 0.1s ease-out;
+	   -moz-transition: all 0.2s 0.1s ease-out;
+		 -o-transition: all 0.2s 0.1s ease-out;
+	    -ms-transition: all 0.2s 0.1s ease-out;
+         	transition: all 0.2s 0.1s ease-out;
+}
+p,span{
+	font-size: 100%;
+}
+a,ul,li,ol{
+	font-size: 100%;
+	list-style: none;
+	text-decoration: none;
+	color: #000;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+body{
+	clear: both;
+	display: block;
+	background-color: #f1c40f;
+}
+section{
+	width: 100%;
+}
+.img-responsive{
+	width: 100%;
+	vertical-align: middle;
+}
+.menu{
+	width: 100%;
+	background-color: #f1c40f;	
+}
+.fixed{
+	background-color: rgba(241,196,15,0.7);
+}
+.menu ul{
+	display: block;
+	padding: 2%;
+}
+.menu li{
+	display: inline-block;
+	cursor: pointer;
+	margin: 0 2% ;
+	border-bottom: 3px solid transparent;
+}
+.menu li:hover{
+	border-color: #fafafa;
+}
+.menu .active{
+	border-color: #222d2f;
+}
+.center h1{
+	font-size: 500%;
+}
+.view{
+	background-image: url('../images/main.jpg');
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.text{
+	padding: 4%;
+	width: 92%;
+}
+.text .image{
+	margin: 2% 10%;
+	width: 80%;
+}
+.pad{
+	background-color: #f39c12;
+	border: 6px solid #fafafa;
+	padding: 2%;
+}
+.display{
+	display: block;
+	background-color: #f39c12;
+}
+.third{
+	display: block;
+	vertical-align: middle;
+	width: 100%;
+}
+.display div{
+	display: inline-block;
+	width: 45.5%;
+	padding: 2%;
+	vertical-align: middle;
+}
+.display div h3{
+	line-height: 250%;
+}
+.display h3 span{
+	font-family: 'Pinyon Script', cursive;
+	font-size: 200%;
+}
+.display .image{
+	border-left: 2px solid #fafafa;
+}
+.plan article{
+	display: block;
+	width: 94%;
+	vertical-align: middle;
+	padding: 0 3%;
+}
+.plan div{
+	display: inline-block;
+}
+.plan .image{
+	width: 33.5%;
+	padding: 1%;
+}
+.plan .blueprint{
+	width: 22%;
+	padding: 1%;
+	vertical-align: middle;
+}
+.plan div{
+	line-height: normal;
+}
+.plan .head{
+	margin: 1%;
+	width: 100%;
+}
+.head h2{
+	text-align: left;
+}
+.plan ul li{
+	list-style: circle;
+	margin-bottom: 1%;
+}
+.plan h4{
+	text-align: left;
+}
+.final{
+	background-color: #f39c12;
+}
+.line{
+	padding: 3%;
+}
+.banner{
+	width: 100%;
+	background-color: #fff;
+}
+.banner div{
+	display: inline-block;
+}
+.banner .image{
+	width: 50.7%;
+}
+.banner .call{
+	width: 49%;
+	vertical-align: middle;
+}
+.footer{
+	padding: 1% 0;
+	background-color: #222d2f;
+	color: #fff;
+}
+.footer span{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+.footer span:hover{
+	color: #d35400;
+}
+.footer span:hover > span{
+	color: #27ae60;
+}
+.scrollblock{
+	position: relative !important;
+}
