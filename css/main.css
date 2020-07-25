@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,h6,input,textarea{
 body{
 	clear: both;
 	display: block;
-	background-image: url(../images/full.jpg);
+	background-image: url(../images/full_new.jpg);
 	-webkit-background-size: 100% 100%;
 	background-size: 100% 100%;
 	background-attachment: fixed;
@@ -40,12 +40,13 @@ header{
 	width: 98%;
 	padding: 1%;
 	background-color: #222d2f;
+	border-bottom: 3px solid #fff;
 }
 header div{
 	display: inline-block;
 }
 .img-responsive{
-	width: 100%;
+	width: 94%;
 	height: 100%;
 }
 .logo{
@@ -118,6 +119,7 @@ header div{
 	padding: 4% 0;
 }
 .two img{
+	margin-right: 10%;
 	min-height: 370px;
 	border: 4px solid #fff;
 	border-right: none;
@@ -131,15 +133,15 @@ header div{
 }
 .footer{
 	padding: 1% 0;
-	background-color: #fff;
-	color: #000;
+	background-color: #0a0e0f;
 }
 .footer span{
 	font-family: 'Montserrat', sans-serif;
 	color: #000;
 }
 .footer h4{
-	color: #000;
+	/* color: #000; */
+	color: #fff;
 }
 .footer span:hover{
 	color: #d35400;
