@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Pinyon+Script|Montserrat|Arvo);
+*{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'Arvo', serif;
+	-webkit-transition: all 0.2s 0.1s ease-out;
+	   -moz-transition: all 0.2s 0.1s ease-out;
+		 -o-transition: all 0.2s 0.1s ease-out;
+	    -ms-transition: all 0.2s 0.1s ease-out;
+         	transition: all 0.2s 0.1s ease-out;
+}
+p,span{
+	font-size: 100%;
+}
+a,ul,li,ol{
+	font-size: 100%;
+	list-style: none;
+	text-decoration: none;
+	color: #000;
+}
+h1,h2,h3,h4,h5,h6,input,textarea{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	color: #fafafa;
+}
+body{
+	clear: both;
+	display: block;
+	background-image: url(../images/full.jpg);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+section{
+	width: 100%;
+}
+header{
+	position: relative;
+	width: 98%;
+	padding: 1%;
+	background-color: #222d2f;
+	border-bottom: 3px solid #fff;
+}
+header div{
+	display: inline-block;
+}
+.img-responsive{
+	width: 100%;
+	height: 100%;
+}
+.logo{
+	left: 0;
+	position: absolute;
+	width: 19.5%;
+	/*font-size: 350%;
+	font-family: 'Pinyon Script', cursive;
+	color: #f1c40f;
+	text-decoration: underline;*/
+}
+.menu{
+	margin: 0 3%;
+	width: 74%;
+}
+.menu ul{
+	display: block;
+}
+.menu li{
+	cursor: pointer;
+	margin: 0 2%;
+	display: inline-block;
+}
+.menu li:hover{
+	border-bottom: 3px solid #2ecc71;
+}
+.active{
+	border-bottom: 3px solid #f1c40f;
+}
+.active:hover{
+	border-bottom: 3px solid #f1c40f !important;
+}
+.contact{
+	height: 100%;
+}
+.fourth{
+	background-color: #f1c40f;
+}
+.fourth h2{
+	padding: 2% 0;
+	color: #222d2f;
+}
+.contact{
+	background-color: #222d2f;
+	display: block;
+}
+.contact div{
+	display: inline-block;
+}
+#map{
+	width: 59.5%;
+	min-height: 400px;
+}
+.address{
+	width: 36%;
+	padding: 2%;
+	vertical-align: top;
+}
+.address h1{
+	font-size: 350%;
+	text-align: left;
+}
+.address h2{
+	text-align: left;
+}
+form input, form textarea{
+	text-align: left;
+	padding: 5px;
+	width: 90%;
+	margin: 1% 0;
+	margin-right: 10%;
+	border-radius: 6px;
+	color: #000;
+}
+.footer{
+	padding: 1% 0;
+	background-color: #222d2f;
+}
+.footer span{
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+}
+.footer h4{
+	color: #fff;
+}
+.footer span:hover{
+	color: #d35400;
+}
+.footer span:hover > span{
+	color: #27ae60;
+}
+@media screen and (max-width: 800px) {
+	.logo{
+		width: 100%;
+		position: relative;
+	}
+	.menu li{
+		width: 100%;
+		margin: 0;
+	}
+	#map{
+		width: 100%;
+		min-height: 200px !important;
+		height: 250px !important;
+	}
+	.address{
+		width: 96%;
+		padding: 2%;
+	}
+	.address h1{
+		font-size: 150%;
+	}
+	.address h2{
+		font-size: 120%;
+	}
+	form input, form textarea{
+		padding: 0;
+		width: 92%;
+		margin: 4%;
+	}
+}
