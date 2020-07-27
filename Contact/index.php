@@ -37,7 +37,12 @@
 					<h2>Caranzalem, Goa</h2>
 					<h2>403002</h2><br>
 					<h2>Contact - Mr. A. D. Sardesai</h2>
-					<h2>Tel: +91-9822486109</h2><br>
+					<div style="float: left;">
+						<h2 style="float:left;">Tel: +91-9822486109</h2>
+						<a href="https://www.facebook.com/Ilha-do-Sol-1891050391120779/">
+							<img src="../images/fb.jpg" alt="Facebook" width="20" height="20" style="float:right; margin-left:10px; margin-top:4px">
+						</a>
+					</div><br><br>
 					<form action="mail.php" method="POST">
 						<input type="text" name="fname" placeholder="YOUR NAME *">
 						<input type="email" name="email" placeholder="YOUR EMAIL *">
